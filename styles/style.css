@@ -38,6 +38,7 @@
   padding: 30px;
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .red-subcontainer {
@@ -53,6 +54,7 @@
 .red-subcontainer > img {
   width: 70px;
   margin-bottom: 20px;
+  
 }
 
 .image-container {
@@ -77,6 +79,7 @@
 
 .grey-section {
   background-color: #606060;
+  color: white;
   display: flex;
   justify-content: space-around;
 }
@@ -91,4 +94,29 @@
   background-color: #606060;
   border: none;
   border-bottom: 0.5px dotted white;
+}
+
+.white-container {
+    margin: 0 4rem 0 4rem;
+}
+
+.headline-container {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.article-container > h4 {
+    font-size: 1rem;
+    /* text-align: center; */
+}
+
+.article-container > h5 {
+    font-size: 0.7rem;
+    /* text-align: center; */
+    padding-bottom: 1rem;
+}
+
+.article-container > p {
+    font-size: 0.9rem;
+    /* text-align: center; */
 }
